@@ -1,0 +1,27 @@
+# Lo que genera kbuild al compilar un módulo
+*.o
+*.ko
+*.mod
+*.mod.c
+.*.cmd
+Module.symvers
+modules.order
+.tmp_versions/
+
+# Binarios de espacio de usuario
+part1/syscalls/ejemplo_printf
+part1/syscalls/copiar_archivo
+part1/segfault/segv
+part1/testdir/file2
+desafio1/hola/hola-sdc
+
+# Lo que deja checkinstall
+*.deb
+*.tgz
+description-pak
+backup-*.tgz
+
+# Claves de firma: la privada NUNCA va al repo
+MOK.*
+*.priv
+*.der
