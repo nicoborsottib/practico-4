@@ -1,0 +1,5 @@
+Equipo:       santiago-VirtualBox
+Kernel:       7.0.0-38-generic
+Cargados:     58
+Disponibles:  6903
+No cargados:  6845
