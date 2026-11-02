@@ -1,0 +1,5 @@
+Equipo:       nico-HP-Laptop-15-ef2xxx
+Kernel:       7.0.0-38-generic
+Cargados:     158
+Disponibles:  6903
+No cargados:  6745
