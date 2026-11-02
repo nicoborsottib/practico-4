@@ -6,6 +6,10 @@
 #   ./scripts/modulos.sh nico            # o un nombre a elección
 set -euo pipefail
 
+# Orden por bytes: sin esto, en un Ubuntu en español comm se queja del orden y el diff
+# con las salidas de otra máquina da diferencias falsas
+export LC_ALL=C
+
 NOMBRE=${1:-$(hostname)}
 DIR=$(dirname "$0")/../salidas
 mkdir -p "$DIR"
